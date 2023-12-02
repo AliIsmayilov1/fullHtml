@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="imtahan.css">
+</head>
+
+<body>
+    <ul class="top">
+        <li><a href="imtahan.html">Home</a></li>
+        <li><a href="buttons.html">Button</a></li>
+        <li><a href="images.html">Images</a></li>
+        <li><a href="tables.html">Tables</a></li>
+        <li><a href="lists.html">Lists</a></li>
+        <li><a href="">Iframes</a></li>
+        <li><a href="formImtahan.html">Forms</a></li>
+        <li><a href="">Layouts</a></li>
+        <li><a href="menus.html">Menus</a></li>
+    </ul>
+    <h1>With forms you can collect data from users!</h1>
+    <form action="https://www.w3schools.com">
+        <label for="user-name-info">Your name:</label><br>
+        <input size="40" type="text" name="user-name" id="user-name-info"><br><br>
+        <label for="">Your surname:</label><br>
+        <input disabled type="text" name="" id=""><br><br>
+        <label for="user-email-info">Your email:</label><br>
+        <input autofocus type="email" name="user-email" id="user-email-info"><br><br>
+        <label for="user-password-info">Your password:</label><br>
+        <input minlength="4" maxlength="10" type="password" name="user-password" id="user-password-info"><br><br>
+        <label for="user-telephone-info">Your telephone:</label><br>
+        <input pattern="[+] [0-9]{3}-[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" placeholder="+994-11-111-11-11" type="tel"
+            name="user-tel" id="user-telephone-info"><br><br>
+        <label for="user-link-info">Your link:</label><br>
+        <input type="url" name="user-link" id="user-link-info"><br><br>
+        <label for="">Your age:</label><br>
+        <input min="18" max="67" type="number" name="" id=""><br><br>
+        <label for="">Your proffesion:</label><br>
+        <select name="Profession" id="">
+            <optgroup label="Web">
+                <option value="fe">Front-end</option>
+                <option value="be">Back-end</option>
+                <option value="fs">Full-Stack</option>
+            </optgroup>
+            <optgroup label="Network">
+                <option value="na">Network admin</option>
+                <option value="ns">Network security</option>
+            </optgroup>
+        </select><br><br>
+        <label for="">Which language do you know:</label><br>
+        <select multiple name="Coding lang" id="">
+            <option value="js">JavaScript</option>
+            <option value="py">Python</option>
+            <option value="cpp">C++</option>
+        </select><br><br>
+        <label for="fav-os">Your favorite OS:</label><br>
+        <input type="text" name="user-fav-os" id="fav-os" list="fav-os">
+        <datalist id="fav-os">
+            <option value="Linux"></option>  
+            <option value="Windows"></option>
+            <option value="MacOs"></option>
+        </datalist><br><br>
+        <label for="user-fav-color">Your favorite color:</label><br>
+        <input type="color" name="fav-color" id="user-fav-color"><br><br>
+        <label for="user-rate-info">Your rate:</label><br>
+        <input step="10" type="range" name="user-rate" id="user-rate-info"><br><br>
+        <label for="user-birthday-info">Date of birthday:</label> <br>
+        <input required type="date" name="user-birthday" id="user-birthday-info"><br><br>
+        <label for="">Working hours:</label><br>
+        From: <input type="time" name="working-hour-from" id="">
+        To : <input type="time" name="working-hour-to" id=""><br><br>
+        <label for="">Work experience:</label><br>
+        From: <input type="month" name="work-experiecne-from" id="">
+        To: <input type="month" name="work-experience-to" id=""><br><br>
+        <label for="">Your favorite moment:</label><br>
+        <input type="datetime-local" name="fav-moment" id=""><br><br>
+        <label for="">Your CV:</label><br>
+        <input type="file" name="user-cv" id=""><br><br>
+        <label for="">Gender:</label><br>
+        Male:<input type="radio" name="user-gender" id="user-gender-male">
+        Female: <input type="radio" name="user-gender" id="user-gender-female"><br><br>
+        <label for="user-lang-info">Languages:</label><br>
+        Azeri<input type="checkbox" name="user-lang" id="user-lang-info" value="AZ">
+        Ingilis <input type="checkbox" name="user-lang" id="user-lang-info" value="EN">
+        Rus <input type="checkbox" name="user-lang" id="user-lang-info" value="RU"><br><br>
+        <label for="">Your message</label><br>
+        <textarea readonly name="" id="" cols="30" rows="10">Here is your message</textarea><br><br>
+        <input type="submit" value="Gonder">
+    </form>
+</body>
+
+</html>

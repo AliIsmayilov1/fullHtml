@@ -1,0 +1,152 @@
+/* Standart-start */
+ul.top li a {
+    text-decoration: none;
+    font-size: 26px;
+    padding: 20px;
+    color: white;
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul.top li {
+    display: inline;
+}
+
+ul.top {
+    background-color: #6EA4BF;
+}
+
+body {
+    background-color: #ECFEE8;
+}
+
+ul.top li a:hover {
+    background-color: #41337A;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Standart-end */
+
+
+/* Tables-start */
+table,
+th,
+td {
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #1E96FC;
+}
+
+tbody.table1 {
+    background-color: #A2D6F9;
+}
+
+tfoot {
+    background-color: #FFC600;
+}
+
+th {
+    border: 1px solid white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Table-end */
+
+/* Button-start */
+a.danger {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+}
+
+a.success {
+    background-color: green;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+}
+
+.warning {
+    background-color: orange;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+}
+
+.info {
+    background-color: #1E96FC;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+}
+
+a.button {
+    background-color: rgb(110, 110, 204);
+    color: rgb(228, 227, 226);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Button-end */
+
+/* Img*start */
+img {
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* Img*end */
+
+
+/*List-start*/
+
+ul.list1 {
+    background-color: #291968;
+    border-radius: 8px;
+}
+ul.list1 li{
+    color: #f0f2f3;
+    padding: 8px;
+}
+ul.list1 li ul li{
+    background-color: #7daef8;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+ul.list2{
+    background-color: #291968;
+    border-radius: 8px;
+    list-style-type: "\1F4BB";
+    padding: 5px 5px 5px 30px;
+}
+ul.list2 li{
+    background-color: #7daef8;
+    border-radius: 8px;
+    color:#f0f2f3 ;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px;
+    
+}
+/* List-end */
