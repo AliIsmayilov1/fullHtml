@@ -1,0 +1,39 @@
+header,footer{
+    background-color: darkblue;
+    color: beige;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: beige;
+}
+header{
+    grid-area: He;
+}
+footer{
+    grid-area: Fo;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(0, 79, 99);
+    padding: 10px;
+    grid-area: Na;
+}
+article{
+    background-color: darkcyan;
+    padding: 10px;
+    color: beige;
+    grid-area: Ar;
+}
+body{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: 
+    "He He" 
+    "Na Ar"
+    "Fo Fo"
+    ;
+}
