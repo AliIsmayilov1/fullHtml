@@ -1,0 +1,14 @@
+body{
+    background-color: aquamarine;
+}
+ul{
+    background-color: blueviolet; 
+   overflow: auto;
+}
+li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    font-size: 25px;
+    color: beige;
+}

@@ -1,0 +1,13 @@
+body{
+    background-color: aquamarine;
+}
+ul{
+    background-color: blueviolet; 
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 25px;
+    color: beige;
+}
