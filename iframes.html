@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Forms</title>
     <link rel="stylesheet" href="imtahan.css">
     <link rel="icon" type="image/x-icon" href="photos/favicon.ico">
 </head>
@@ -19,7 +19,15 @@
         <li><a href="layout.html">Layouts</a></li>
         <li><a href="menus.html">Menus</a></li>
     </ul>
-    <h1>Welcome coder! :)</h1>
-    <p><b>Are you ready to coding? Enjoy the HTML and minimum CSS</b></p>
+    <h1>You can embed ither web sites into your pages with iframes!</h1>
+    <iframe class="iframe" name="iframe" src="" frameborder="0"></iframe><br>
+    <a class="ifrbutton" target="iframe" href="buttons.html">Buttons</a>
+    <a target="iframe" class="ifrbutton" href="tables.html">Tables</a><br>
+    <h2>Nested iframes and how link targets work!</h2>
+    <iframe name="iframelvl2" class="iframe2" src="iframes/lvl2.html" frameborder="0">
+        
+        <iframe name="iframelvl2" target=""  class="iframe3" src="iframes/lvl3.html" frameborder="0"></iframe>
+    </iframe><br>
+    
 </body>
 </html>
